@@ -1,4 +1,4 @@
-const playerSelection = prompt("Please enter value").toLowerCase();
+const playerSelection = prompt("Please choose rock, paper or sissors.").toLowerCase();
 const computerSelection = getComputerChoice(); 
 
 function getComputerChoice() {
